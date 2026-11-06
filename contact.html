@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about SwiftCargo Logistics, our mission, values and logistics services.">
+    <title>Contact Us | SwiftCargo Logistics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">SC</span>
+                SwiftCargo
+            </a>
+
+            <button class="menu-toggle" type="button"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                &#9776;
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+
+<main>
+    <section class="page-banner">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Have a question? Send us an inquiry.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container contact-layout">
+
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>
+                    Contact SwiftCargo Logistics for
+                    transportation and delivery inquiries.
+                </p>
+                <p>
+                    Select the service you need and
+                    describe your requirements.
+                </p>
+            </div>
+
+            <div class="contact-form-box">
+                <h2>Contact Form</h2>
+
+                <form id="contactForm" novalidate>
+
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" required>
+                        <small id="nameError" class="error-message"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                        <small id="emailError" class="error-message"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone">
+                        <small id="phoneError" class="error-message"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service</label>
+                        <select id="service" required>
+                            <option value="">Select Service</option>
+                            <option value="Freight Transportation">Freight Transportation</option>
+                            <option value="Express Delivery">Express Delivery</option>
+                            <option value="Warehousing">Warehousing</option>
+                            <option value="Supply Chain Management">Supply Chain Management</option>
+                        </select>
+                        <small id="serviceError" class="error-message"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" required></textarea>
+                        <small id="messageError" class="error-message"></small>
+                    </div>
+
+                    <button type="submit" class="btn">Submit</button>
+                    <p id="formStatus" class="form-status"
+                       role="status" aria-live="polite"></p>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+
+            <div class="footer-about">
+                <h3>SwiftCargo Logistics</h3>
+                <p>Delivering Trust, Every Mile.</p>
+                <p>
+                    Reliable logistics solutions for
+                    modern businesses.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Get in Touch</h3>
+                <p>For shipping and logistics inquiries,</p>
+                <a href="contact.html">Visit our Contact Page</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 SwiftCargo Logistics. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
